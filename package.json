@@ -1,0 +1,17 @@
+{
+  "name": "pokemonapi",
+  "version": "1.0.0",
+  "description": "se hace un pokedex",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ivan avila",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bootstrap": "^5.3.1",
+    "jquery": "^3.7.0",
+    "popper": "^1.0.1"
+  }
+}
