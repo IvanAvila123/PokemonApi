@@ -24,7 +24,28 @@
 </div>
   </div>
 
+
+  <!-- se agrega un modal para la informacion adicional -->
+<div class="modal fade" id="pokemonModal" tabindex="-1" aria-labelledby="pokemonModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="pokemonModalLabel">Detalles del Pokémon</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4 id="pokemonName"></h4>
+        <p>Peso: <span id="pokemonWeight"></span></p>
+        <p>Ataques: <span id="pokemonAttacks"></span></p>
+        <p>Tipo: <span id="pokemonType"></span></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="app.js"></script>
 </html>
